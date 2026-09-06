@@ -2,7 +2,7 @@ body{
     background-color: rgb(180, 224, 239);
     color:black;
     font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif; /* Changes the default font-family of new elements within body tags */
 }
 
 p{
@@ -37,7 +37,7 @@ table{
     padding: 10px;
 }
 
-#main-header {
+#main-header { /* Changes only the main-header id */
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
@@ -45,11 +45,11 @@ table{
 }
 
 a {
-    color: rgb(128, 0, 128);
+    color: rgb(128, 0, 128); /* Changes the default color of links */
     text-decoration: underline;
     padding: 10px;
 }
 
 a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0); /* Applies when links are hovered */
 }
