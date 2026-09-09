@@ -1,0 +1,94 @@
+header {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(32, 33, 36);
+    color:rgb(232, 234, 237);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(138, 180, 248);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(138, 180, 248);
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: rgb(138, 180, 248);
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+    color: rgb(30, 144, 255);
+}
+
+.highlight {
+    background-color: rgb(129, 129, 129);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.skills-table {
+    margin-top: 1rem;
+}
+
+.skills-table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(232, 234, 237);
+}
+
+.skills-table th {
+    background-color: rgb(232, 234, 237);
+    color: rgb(32, 33, 36);
+}
+
+#main-header {
+    background-color: rgb(32, 33, 36);
+    color: rgb(232, 234, 237);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#site-footer {
+    background-color: rgb(32, 33, 36);
+    color: rgb(232, 234, 237);
+    font-size: 16px;
+    padding: 10px 0;
+}
