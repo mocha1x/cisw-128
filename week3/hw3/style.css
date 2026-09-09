@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
 
 a {
@@ -53,11 +53,11 @@ footer {
 }
 
 .nav-link:hover {
-    color: rgb(30, 144, 255);
+    color: rgb(30, 144, 255); /* Change to a brighter blue on hover */
 }
 
 .highlight {
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(129, 129, 129); /* Gray highlight background */
     color: white;
     border-radius: 4px;
     font-weight: 600;
@@ -68,7 +68,7 @@ footer {
 }
 
 .skills-table td {
-    padding: 12px 15px;
+    padding: 12px 15px; /* Add padding for spacing */
     border: 1px solid rgb(232, 234, 237);
 }
 
@@ -87,8 +87,11 @@ footer {
 }
 
 #site-footer {
-    background-color: rgb(32, 33, 36);
     color: rgb(232, 234, 237);
     font-size: 16px;
     padding: 10px 0;
+}
+
+.main-content {
+    margin: 20px 0;
 }
