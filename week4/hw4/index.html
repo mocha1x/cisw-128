@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My favorite games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Favorite Games</h1>
+        <nav class="navbar"> <!-- Navigation links -->
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#stats">Playtime</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home"> <!-- Home section -->
+            <h2>Welcome to My Favorite Games</h2>
+            <p>These are my most played games<br>
+            <section id="click">Click on a game to visit its store page!</p>
+        </section>
+
+        <section id="games" class="game-grid"> <!-- Games section -->
+            <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"> <!-- Links to store page -->
+                <div class="game-card">
+                    <img src="CS2_Cover_Art.jpg" alt="Counter-Strike 2"> <!-- Uses image of game's cover art -->
+                </div>
+            </a>
+            <a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" target="_blank">
+                <div class="game-card">
+                    <img src="R6_Cover_Art.jpg" alt="Tom Clancy's Rainbow Six Siege">
+                </div>
+            </a>
+            <a href="https://store.steampowered.com/app/1172620/Sea_of_Thieves_2026_Edition/" target="_blank">
+                <div class="game-card">
+                    <img src="Sea_of_Thieves_Cover_Art.jpg" alt="Sea of Thieves">
+                </div>
+            </a>
+            <a href="https://www.rocketleague.com/" target="_blank">
+                <div class="game-card">
+                    <img src="Rocket_League_coverart.jpg" alt="Rocket League">
+                </div>
+            </a>
+            <a href="https://www.fortnite.com/" target="_blank">
+                <div class="game-card">
+                    <img src="Fortnite_Cover_Art.jpg" alt="Fortnite">
+                </div>
+            </a>
+        </section>
+
+        <section id="stats" class="stats-container"> <!-- Playtime Statistics -->
+            <h2 class="stats-heading">Playtime Statistics</h2>
+            <div class="stats-grid">
+                
+                <div class="stat-card">
+                    <span class="stat-game">Counter-Strike 2:</span>
+                    <span class="stat-hours">1,877.7 hrs</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-game">Tom Clancy's Rainbow Six Siege:</span>
+                    <span class="stat-hours">290 hrs</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-game">Sea of Thieves:</span>
+                    <span class="stat-hours">285.9 hrs</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-game">Rocket League:  </span>
+                    <span class="stat-hours">483 hrs</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-game">Fortnite:</span>
+                    <span class="stat-hours">5,245 hrs</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!-- Footer -->
+        <p>Copyright &copy; 2026 My Favorite Games. All rights reserved</p>
+    </footer>
+
+</body>
+</html>
